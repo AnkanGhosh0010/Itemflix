@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+.navbar {
+    background-color: transparent;
+    box-shadow: none;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.nav__logo {
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav__avatar {
+    width: 30px;
+    object-fit: contain;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__black {
+    background-color: #111;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 0);
+    overflow: hidden;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to right, #000000, #ff0000);
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left h1 {
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+
+.left h4 {
+    font-size: 20px;
+    margin-bottom: 25x;
+}
+.left p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.left p.intro {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.left p a {
+    color: yellow; 
+    text-decoration: none; 
+}
+
+.left footer {
+    margin-top: 20px;
+    font-size: 25px;
+    opacity: 0.8;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.left footer a {
+    color: yellow; 
+    text-decoration: none; 
+}
+
+.left footer a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    flex: 1.25;
+    padding: 20px;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 60px;
+}
+

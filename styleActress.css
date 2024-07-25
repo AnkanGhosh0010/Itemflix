@@ -1,0 +1,135 @@
+    /* nav */
+    
+    .navbar {
+        background-color: transparent;
+        box-shadow: none;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        padding-top: 20px;
+
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nav__logo {
+        width: 80px;
+        object-fit: contain;
+    }
+
+
+    .nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        z-index: 1;
+        transition-timing-function: ease-in;
+        transition: all 0.5s;
+    }
+
+    .nav__black {
+        background-color: #000000;
+    }
+
+    .navbar a:hover {
+        color: rgb(220, 48, 48);
+        overflow: hidden;
+    }
+
+    
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        background-color: black;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .left-section, .right-section {
+        background-color: #000000;
+        padding: 15px;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
+
+    .left-section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .main-section {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-section img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+    }
+
+    .poster {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .poster img {
+        width: 100%;
+        cursor: pointer;
+        max-width: 150px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .poster img:hover {
+        transform: scale(1.25);
+    }
+
+    h2,p {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        padding-left: 100px;
+    }
+
+    h2{
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
+
+
+    
